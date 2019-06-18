@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#BDBDBD">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Coordimate"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    />kgg
+            </LinearLayout>
+;
+            <Button
+                android:layout_centerVertical="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="문"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="45dp"
+                />
+
+            <Button
+                android:layout_centerVertical="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="인"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true">
+
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_toLeftOf="@+id/fab2"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/back"
+                    android:visibility="invisible"
+                    android:src="@drawable/clo"
+                    app:backgroundTint="#D5D5D5"
+                    />
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab2"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/back"
+                    android:visibility="invisible"
+                    android:src="@drawable/clo2"
+                    app:backgroundTint="#D5D5D5"
+                    />
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab3"
+                    android:visibility="invisible"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/fab2"
+                    android:src="@drawable/clo2"
+                    app:backgroundTint="#D5D5D5"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_above="@+id/relat"
+                    android:background="#D5D5D5"
+                    />
+                <RelativeLayout
+                    android:id="@+id/relat"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    >
+                    <Button
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:text="Feed"
+                        android:textStyle="bold"
+                        android:textSize="13dp"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:background="#EAEAEA"
+                        />
+                    <Button
+                        android:layout_marginLeft="70dp"
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:text="Closet"
+                        android:textStyle="bold"
+                        android:textSize="13dp"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:background="#EAEAEA"/>
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/fab"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/plus"
+                        app:backgroundTint="#EAEAEA"
+                        />
+
+                    <Button
+                        android:layout_alignParentRight="true"
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:text="coordi mate"
+                        android:textStyle="bold"
+                        android:layout_centerVertical="true"
+                        android:textSize="13dp"
+                        android:layout_gravity="center"
+                        android:background="#EAEAEA"/>
+
+                    <Button
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="70dp"
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:text="My page"
+                        android:textStyle="bold"
+                        android:textSize="13dp"
+                        android:layout_gravity="center"
+                        android:background="#EAEAEA"/>
+                </RelativeLayout>
+            </RelativeLayout>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
