@@ -27,4 +27,11 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.android.support:design:27.1.1'
     implementation 'com.facebook.android:facebook-login:[4,5)'
+    compile group: 'com.kakao.sdk', name: 'usermgmt', version: project.KAKAO_SDK_VERSION // KaKaoSDK
+    compile 'com.googlecode.android-query:android-query:0.25.9' //AQuery
+    compile 'de.hdodenhof:circleimageview:1.2.1' // CircleImageView
+
+
+
+
 }

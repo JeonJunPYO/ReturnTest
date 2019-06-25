@@ -2,4 +2,5 @@
     <string name="app_name">ReturnTest</string>
     <string name="facebook_app_id">1351037681709861</string>
     <string name="fb_login_protocol_scheme">fb1351037681709861</string>
+    <string name="kakao_app_key">a4fb5c501e89fb4a66fd0b6b0bc2b496</string>
 </resources>
